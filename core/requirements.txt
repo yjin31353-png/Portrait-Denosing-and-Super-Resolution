@@ -1,0 +1,29 @@
+# ============================================================
+# D:\edge\projects - 公共依赖清单
+# 安装: pip install -r requirements.txt
+# ⚠️ torch / torchvision 请根据你的 CUDA 版本手动安装
+#    NAFNet 推荐: torch 1.11.0 + CUDA 11.3
+#    Real-ESRGAN: torch >= 1.7
+# ============================================================
+
+# ---------- 两项目公共 ----------
+numpy
+opencv-python
+Pillow
+tqdm
+
+# ---------- NAFNet 专有 ----------
+addict
+future
+lmdb
+pyyaml
+requests
+scikit-image
+scipy
+tb-nightly
+yapf
+
+# ---------- Real-ESRGAN 专有 ----------
+basicsr>=1.4.2
+facexlib>=0.2.5
+gfpgan>=1.3.5
